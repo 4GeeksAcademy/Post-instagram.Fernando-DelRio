@@ -2,21 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color: white;
+    background-color: rgb(224, 224, 224);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    
 }
 
 .Post {
     width: 100%;
     max-width: 600px;
     background: white;
+    border-radius: 8px;
     border: 1px solid gray;
     
 }
@@ -26,7 +29,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 18px;
+    padding: 14px 18px;
+    
 
 }
 
@@ -40,6 +44,7 @@ body {
 .icono-html {
     font-size: 30px;
     color: black;
+    color: orange;
 }
 
 .Post-image {
@@ -88,4 +93,3 @@ body {
 .Post-icons strong {
     font-weight: 600;
 }
-
