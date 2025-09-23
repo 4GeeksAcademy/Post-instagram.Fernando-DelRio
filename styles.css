@@ -16,12 +16,12 @@ body {
 }
 
 .Post {
-    width: 100%;
-    max-width: 600px;
-    background: white;
-    border-radius: 8px;
-    border: 1px solid gray;
-    
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  border-radius: 12px;              
+  border: 1px solid #dfdfdf;        
+  box-shadow: 0 10px 24px rgba(0,0,0,.08); 
 }
 
 
@@ -31,8 +31,8 @@ body {
     justify-content: space-between;
     padding: 14px 18px;
     
-
 }
+
 
 .Post-user {
     flex: 1;
@@ -70,11 +70,17 @@ body {
     border-bottom: 1px solid white;
 }
 
-.Post-icons i {
+.Post-icons i  {
     font-size: 28px;
     margin-right: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
 }
 
+.Post-icons .fa-heart:hover {color: red; }  
+.Post-icons .fa-comment:hover,
+.Post-icons .fa-paper-plane:hover{color: blue; }  
+.Post-icons .fa-bookmark:hover{     color: #e6a90f; }  /* dorado guardar */
 
 .Post-icons i.fa-bookmark {
     position: absolute;
@@ -93,3 +99,4 @@ body {
 .Post-icons strong {
     font-weight: 600;
 }
+
